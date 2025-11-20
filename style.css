@@ -1,0 +1,16 @@
+/*pour tout les paragraphes ,j'ai modifié la couleur de mon texte en rouge qui est sur index.html */
+p{
+
+    color:red;
+}
+
+/*pour tout les paragraphes qui ont un rapport avec l'rsma j'ai colorié en bleu*/
+.rsma{
+    color: blue;
+
+
+}
+
+
+
+
