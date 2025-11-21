@@ -2,15 +2,38 @@
 p{
 
     color:red;
+    text-decoration: underline;
+
 }
 
 /*pour tout les paragraphes qui ont un rapport avec l'rsma j'ai colorié en bleu*/
 .rsma{
     color: blue;
-
-
+    font-weight: bold;
 }
 
 
+.rsma{
+   
+    font-size: 20px;
+}
 
+body  {
+    font-family:'Oswald', sans-serif;
+  
+}
+
+#paragraphe1 {
+    color: green;
+    font-family: 'trirong', sans-serif;
+    font-style: italic;
+
+}
+
+/*je décris le style appliqué aux membres de la classe*/
+.rsma {
+    color: blue; /* couleur du texte */
+    font-size: 25px; /* taille de la police */
+    font-family: 'papyrus', fantasy; /* nom de la police du texte */
+}
 
