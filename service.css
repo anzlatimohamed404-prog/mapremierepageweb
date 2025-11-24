@@ -1,0 +1,16 @@
+/* j'ai colorier le texte en rouge*/
+#divsolid{
+
+    color: red;
+    background-color: lightblue;
+    border: solid;
+}
+#divdouble{
+    border: double;
+}
+#divdotted{
+    border: dotted;
+}
+#divdashed{
+    border: dashed;
+}
