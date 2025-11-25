@@ -4,13 +4,34 @@
     color: red;
     background-color: lightblue;
     border: solid;
+    /*j'ai changer la couleur de mon texte et l'arriere plan de mon texte*/
 }
 #divdouble{
+    color:red;
+    background-color: bisque;
     border: double;
+    /*j'ai changer la couleur de mon texte et l'arriere plan de mon texte*/
 }
 #divdotted{
+    color: rosybrown;
+    background-color: aquamarine;
     border: dotted;
+    /* j'ai changer la couleur de mon texte et l'arriere plan de mon texte*/
 }
 #divdashed{
+    color: grey;
+    background-color:royalblue;
     border: dashed;
+}
+
+
+#div1{
+  border:solid;
+  color: green;
+  border-radius: 25px 10px 45px 45px;
+  }
+#div2{
+  border:double;
+  color:red;
+  border-radius:15px;
 }
