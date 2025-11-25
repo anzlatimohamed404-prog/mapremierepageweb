@@ -1,5 +1,6 @@
 div{
   width: 150px;
+  height:150px;
 }
 
 /* j'ai colorier le texte en rouge*/
@@ -24,18 +25,23 @@ div{
 }
 #divdashed{
     color: grey;
-    background-color:royalblue;
+    background-color:yellow;
     border: dashed;
 }
-
-
 #div1{
-  border:solid;
-  color: green;
-  border-radius: 25px 10px 45px 45px;
+     border:solid;
+     color: green;
+     border-radius: 25px 10px 45px 45px;
+
+ 
   }
+   /* je selectionne ma deuxiéme balise <div> grace a son identifiant div2*/
 #div2{
-  border:double;
-  color:red;
-  border-radius:15px;
+
+  color:orange;
+  /* la bordure est doublée, de couleur blue et 4px d'épaisseur */
+     border:double black 4px ;
+     border-radius:15px;
+     /*Le text est alligné au centre*/
+     text-align: center;
 }
