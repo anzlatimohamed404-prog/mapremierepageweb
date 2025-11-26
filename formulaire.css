@@ -1,0 +1,23 @@
+form{
+    background-color: darksalmon;
+   
+}
+div{
+    color: black;
+     display: inline;
+     margin-left: 15px;
+        
+
+}
+/* je selectionne uniquement les input de type text,date*/
+input[type=text],[type=date]{  /* il va selectionner tout les inputs dont le type=text*/
+    padding: 17px; /* j'ai appris a mettre un espace dans la balise input avec padding.*/
+    margin: 17px;/* j'ai ajouter "margin" et je vois comme resultat la marge qui s'elargie.*/
+    border-radius: 30%;
+
+    
+}
+input[type=submit]{
+    margin: 17px;
+
+}

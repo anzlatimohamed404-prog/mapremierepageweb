@@ -4,13 +4,79 @@
     <head>
         <!--j'ai créér un formulaire d'inscription-->
         <meta charset="utf-8">
-        <title>formilaire</title>
+        <title>formilaire d'inscription--</title>
+         <link rel="stylesheet" href="formulaire.css">
         
 
     </head>
     <body>
 
     </body>
+    <!--je rédige le structure du formulaire d'inscription-->
+    <form> <!--début du formulaire-->
+        <div>
+        <label for="prenom">prénom(s)</label>
+        <input type="text" name="prenom" id="prenom">
+        <label for="nom">Nom(s)</label>
+        <input type="text" name="nom" id="nom">
+        </div>
 
+        <br><br>
+        <div>
+        <label>Date de naissance</label>
+        <input type="date" name="datedeNaissance" id="datedeNaissance">
+
+        <label for="village"> village </label>
+        <input type="text" name="village" id="village">
+        </div>
+    
+        <br><br>
+        <div>
+        <label> Genre: </label>
+        <label for="sexfeminin">F </label>
+        <input type="radio" name="sex" id="sexfeminin">
+        <label for="sexmasculin">M</label>
+        <input type="radio" name="sex" id="sexmasculin">
+        </div>
+        <br><br>
+
+        <div>
+        <label>disciplines:</label>
+        <label for="maths">mathématiques </label>
+        <input type="checkbox" name="mathématiques" id="mathématiques">
+        </div>
+        <br>
+        <div>
+        <label for="histoire/geographie">histoire/geographie</label>
+        <input type="checkbox" name="histoire/geographie" id="histoire/geographie">
+        </div>
+        <br>
+
+        <div>
+         <label for="EpS">EPS</label>
+        <input type="checkbox" name="EPS" id="EpS">
+        </div>
+        <br><br>
+        
+        <div>
+        <label for="email">email</label>
+        <input type="text"name="email" id="email">
+        </div>
+        <br><br>
+
+        <div>
+        <input type="submit" value="envoyer">
+        <br><br>
+        </div>
+        <!--je vien de completer la creation de mon formulaire-->
+
+        <!--j'ai créer une cage pour que le client puisse preciser si c'est un homme ou une femme.-->
+
+    
+
+
+
+
+    </form> 
 
 </html>
