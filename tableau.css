@@ -1,0 +1,24 @@
+td{
+    border: 1px solid black;
+    padding: 15px;
+    color: brown;
+    font-size: 30px;
+}
+
+table{
+    margin: auto;
+    background-color: yellow;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+    padding: 16px;
+}
+
+caption{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: orange;
+    font-size: 50px;
+}
